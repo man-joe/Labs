@@ -1,0 +1,28 @@
+1. Find average score:
+for(Integer counter = 1; counter <= 10; counter++)
+	Prompt user for exam score
+	Get exam_score
+	Sum = exam_score + Sum
+Calculate Avg = Sum / 10
+Display Avg
+
+
+2. Find water run off
+Get number of inches_of_rainfall
+Get foot_print_width in feet
+Get foot_print_length in feet
+
+Calculate foot_print_width in inches 
+fpw_inches = foot_print_width * 12
+Calculate foot_print_length in inches * 12 inches
+fpl_inches = foot_print_length * 12
+
+Calculate roof dimensions in inches
+roof_dim = fpl_inches * fpw_inches
+Calculate cubic inches of rainfall on roof
+roof_rain = roof_dim * inches_of_rainfall
+
+Calculate gallons of rain on roof
+rainfall_in_gallons = roof_rain / 231
+
+Display rainfall_in_gallons. 
